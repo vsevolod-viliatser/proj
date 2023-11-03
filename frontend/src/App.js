@@ -168,7 +168,7 @@ function App() {
               <input
                 type="text"
                 value={name}
-                style={{ display: "flex", width: "400px", height: "100px" }}
+                style={{ display: "flex", width: "400px", height: "100px",fontSize:"24px" }}
                 onChange={(e) => setName(e.target.value)}
               />
             </label>
